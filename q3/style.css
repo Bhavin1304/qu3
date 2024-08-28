@@ -1,0 +1,57 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav
+{
+    height: 60px;
+    width: 100%;
+    background-color: wheat;
+}
+.nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+.nav ul li
+{
+    padding: 20px;
+    list-style: none;
+    
+}
+.nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.blog
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.pictur
+{
+    height: 300px;
+    width: 30%;
+    /* background-color: black; */
+    margin: auto;
+    margin-top: 60px;
+}
+.pictur img
+{
+    height: 300px;
+    width: 100%;
+}
+.pictur p
+{
+    padding-top: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+}
